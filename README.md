@@ -1,4 +1,4 @@
-# `Wombat World One &mdash; Geo` Repo
+# `Wombat World One` &mdash; `Geo` Repo
 
 **Wombat World One** is a Minecraft world created for fun/experimental purposes. This repo contains some experimental stuff bridging a fake **Minecraft** world with real **QGIS** geomatics like maps and charts. There's also some automation for Minecraft automation and other stuff, like an underground-style map made using **LibereOffice Draw**. Just playing around with experimental stuff. 
 
