@@ -6,4 +6,4 @@
 <img src=meta/meta-nautical-chart.png>
 <img src=meta/meta-tube-map.png>
 
-There are tie-ins between the experimental stuff here in this repo, and the (closed-source) [https://github.com/cpknight/Paro](ISR devices I design and build) - I'm using avMinecraft derivative (belief it or not) too assist with analysis algorithm design and testing. The stuff here, though, is open source - so please (LICENCE)[feel free to use, reuse, and adapt to your own projects].
+There are tie-ins between the experimental stuff here in this repo, and the (closed-source) [ISR devices I design and build](https://github.com/cpknight/Paro) - I'm using avMinecraft derivative (belief it or not) too assist with analysis algorithm design and testing. The stuff here, though, is open source - so please [LICENCE](feel free to use, reuse, and adapt to your own projects).
