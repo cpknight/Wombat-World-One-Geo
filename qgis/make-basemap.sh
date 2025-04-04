@@ -34,7 +34,7 @@ if [ "$answer" == "yes" ]; then
     echo "Temporary output file: $TEMP_OUTPUT"
 
     # Your conversion code here:
-/home/cpknight/Downloads/unmined-cli_0.19.45-dev_linux-x64/unmined-cli image render \
+/home/cpknight/Applications/unmined-cli_0.19.48-dev_linux-x64/unmined-cli image render \
 --trim \
 --zoom 0 \
 --world "/home/cpknight/.minecraft/saves/W0mbit World 1/" \
