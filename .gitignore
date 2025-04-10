@@ -1,2 +1,7 @@
 *.tif
 *.tif.aux.xml
+*.jar
+/server/*
+!/server/*.sh
+/world-backups/*
+!/world-backups/*.sh
