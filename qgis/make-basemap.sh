@@ -38,6 +38,7 @@ if [ "$answer" == "yes" ]; then
 --trim \
 --zoom 0 \
 --world "/home/cpknight/.minecraft/saves/W0mbit World 1/" \
+--area "b((-9750,-9250),(11500,5000))" \
 --output "$TEMP_OUTPUT"
 
     # Verify that temporary output file exists
@@ -89,7 +90,8 @@ height=$(exiv2 "$TEMP_OUTPUT" 2>/dev/null | grep 'Image size' | awk '{print $6}'
 
             # TIFF generation code
             # -9788 9886 13188 -5106
-	    gdal_translate -a_ullr $v1 $v2 $v3 $v4r $TEMP_OUTPUT basemap-wombat-world-$YYYYMMDD-$HHMMSS.tif 
+	    gdal_translate -a_ullr "$v1" "$v2" "$v3" "$v4r" -co COMPRESS=DEFLATE -co PREDICTOR=2 "$TEMP_OUTPUT" "basemap-wombat-world-$YYYYMMDD-$HHMMSS.tif"
+	    # gdal_translate -a_ullr $v1 $v2 $v3 $v4r $TEMP_OUTPUT basemap-wombat-world-$YYYYMMDD-$HHMMSS.tif 
         fi
     fi
 
