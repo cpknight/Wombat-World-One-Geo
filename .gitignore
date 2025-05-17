@@ -1,3 +1,5 @@
+minecraft-automation/.idea
+minecraft-automation/.venv
 *.tif
 *.tif.aux.xml
 *.jar
