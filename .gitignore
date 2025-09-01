@@ -7,3 +7,8 @@ minecraft-automation/.venv
 !/server/*.sh
 /world-backups/*
 !/world-backups/*.sh
+
+# Exclude any files with 'test' in the name
+*test*
+*Test*
+*TEST*
